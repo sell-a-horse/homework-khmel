@@ -1,0 +1,117 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgb(250, 96, 173), white);
+    padding: 10%;
+    color: purple;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    height: 258px;
+    width: 195px;
+    box-shadow: 4px 4px 10px deeppink;
+}
+
+.img:hover {
+    transform: scale(170%);
+    transition: 1.2s;
+
+
+}
+
+.paragraf {
+    color: rgb(2, 2, 111);
+    background-size: 100%;
+    background-image: linear-gradient(to bottom, white, rgb(250, 96, 173), white, rgb(250, 96, 173), white);
+    background-repeat: 10%;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 4px deeppink;
+}
+
+h1:hover {
+    transform: scale(105%);
+    transition: 0.5s;
+}
+
+h2 {
+    text-shadow: 1.5px 1.5px 4px deeppink;
+}
+
+h3 {
+    padding-top: 150px;
+    text-shadow: 1px 1px 4px deeppink;
+}
+
+.information {
+    margin-bottom: 50px;
+    padding: 0;
+    color: purple;
+    border: solid 3px;
+    padding: 20px;
+    border-radius: 70%;
+    text-align: center;
+    background-image: linear-gradient(pink, white, pink);
+    box-shadow: 0px 7px 20px deeppink;
+}
+
+.information:hover {
+    transform: scale(103%);
+    transition: .2s;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    color: purple;
+    font-size: large;
+    text-shadow: 2px 2px 10px deeppink;
+}
+
+.cont {
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+img.ilustration {
+    margin-right: 100px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 15px deeppink;
+}
+
+img.ilustration:hover {
+    transform: scale(140%);
+    transition: 1s;
+
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+h4 {
+    justify-content: center;
+    text-align: center;
+    color: purple;
+    text-shadow: 2px 2px 7px deeppink;
+}
+
+footer {
+    margin-left: 80px;
+}
+
+footer:hover {
+    transform: scale(110%);
+    transition: 3s;
+}
